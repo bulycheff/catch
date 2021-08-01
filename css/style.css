@@ -4,9 +4,12 @@
 }
 html, body {
   height: 100%;
+
 }
 
 body {
+    max-height: 480px;
+    max-width: 860px;
   margin: 0;
   padding: 0;
 	background: #564e47 url('../img/game-wrap-bg.png');
@@ -57,7 +60,7 @@ h3 {
   }
 
 .footer, .page:after {
-  height: 40px;
+  height: 0px;
 }
 .footer {
   text-align: center;
